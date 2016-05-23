@@ -1,8 +1,11 @@
 {
   "name": "@joehua/package-01",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require babel-register --require babel-polyfill 'tests/*.js'"
+  },
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-eslint": "^6.0.4",
@@ -20,9 +23,6 @@
     "mocha": "^2.4.5",
     "supertest": "^1.2.0",
     "uuid": "^2.0.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joehua",
   "license": "MIT"
