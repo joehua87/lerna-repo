@@ -1,14 +1,14 @@
 {
   "name": "@joehua/package-03",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --require babel-register --require babel-polyfill 'tests/*.js'"
   },
   "dependencies": {
-    "@joehua/package-01": "0.3.0",
-    "@joehua/package-02": "0.3.0"
+    "@joehua/package-01": "^0.3.1",
+    "@joehua/package-02": "^0.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
