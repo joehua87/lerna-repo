@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "max-len": ["error", 120],
+    "semi": [
+      2,
+      "never"
+    ],
+    "no-alert": 0,
+    "no-console": 0,
+    "no-underscore-dangle": 0
+  },
+  "plugins": [
+    "babel"
+  ],
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": [
+        "node_modules",
+        "src"
+      ]
+    }
+  }
+}
