@@ -1,3 +1,4 @@
-/**
- * Created by achilles on 5/23/16.
- */
+describe('package 2 should work', () => {
+  it('yes', () => {
+  })
+})
